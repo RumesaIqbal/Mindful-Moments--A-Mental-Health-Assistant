@@ -30,5 +30,5 @@ yarn-debug.log*
 Thumbs.db
 
 # Data files (if large)
-*.csv
+
 *.zip
