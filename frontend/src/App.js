@@ -66,7 +66,7 @@ useEffect(() => {
 
 const checkApiHealth = async () => {
   try {
-    const response = await fetch('http://localhost:5000/health');
+    const response = await fetch('https://mindful-moments-a-mental-health-assistant.onrender.com/health');
     const data = await response.json();
     setApiStatus('healthy');
     console.log('✅ API Health:', data);
